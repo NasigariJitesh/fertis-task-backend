@@ -1,0 +1,33 @@
+# .gitignore
+
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+
+
+# Virtual environment
+venv/
+*.venv
+.env
+.env.development
+
+# OS generated files
+.DS_Store
+
+
+
+
+.history
+
+.env.local
+_temp/
+
+
+.vscode/settings.json

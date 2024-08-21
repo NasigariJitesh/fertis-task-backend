@@ -13,3 +13,4 @@ load_dotenv(dotenv_path=env_path)
 
 mongodb_url = os.getenv("MONGODB_URL", "")
 mongodb_name = os.getenv("MONGODB_NAME", "")
+jwt_secret = os.getenv("JWT_SECRET", "")

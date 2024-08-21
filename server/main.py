@@ -5,7 +5,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from server.database.mongodb import client as mongodb
-from server.routers import user
+from server.routers import user, login_history
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -28,6 +28,7 @@ app.add_middleware(
 
 
 app.include_router(user.router)
+app.include_router(login_history.router)
 
 
 if __name__ == "__main__":

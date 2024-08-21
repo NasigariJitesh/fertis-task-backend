@@ -1,4 +1,11 @@
 fastapi
 motor
-dotenv
+fastapi
+motor-types
 uvicorn
+aiohttp
+python-dotenv
+uvicorn
+bcrypt
+pyjwt
+pydantic==1.10.11
